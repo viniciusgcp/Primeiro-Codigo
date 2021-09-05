@@ -1,0 +1,71 @@
+body{
+	background-image:url(ptbr_art.jpg);
+    background-size: 100% ;
+    background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    
+}
+h1{
+	color: brown ;
+	font-size: 40px;
+	font-family: Algerian, serif ;
+}
+h2{
+	color: darkred;
+	font-style: italic;
+	font-family: Algerian, serif ;
+}
+p{
+	color: black;
+	font-family: Comic Sans MS, cursive;
+	font-size: 20px;
+	width: 800px;
+	height: 200px;
+	text-align: justify;
+}
+img{
+	float: right;
+	border: 3px solid;
+	border-radius: 6px;
+	height: 200px;
+	width: 200px;
+}
+table {
+	border: 1px solid black;
+	border-color: darkblue;
+	width: 100%;
+	background-color: blue;
+	color: white;
+}
+th{
+	height: 10px;
+	text-align: center;
+    padding: 10;
+    border: 1px solid black;
+}
+td{
+	height: 25px;
+	padding: 10px;
+	text-align: left;
+	border: 5px solid black;
+	border-color: darkred;
+} 
+a:link{
+	color:red ;
+	font-size: 30px;
+	font-family: sans-serif;
+	text-decoration: none;
+	background-color:black ;
+}	
+a:visited{
+	color: Red;
+}
+a:hover{
+	text-decoration: underline;
+	background-color: white;
+}
+a:active{
+background-color: blue;
+color:black ;
+}
